@@ -83,8 +83,9 @@ namespace CA191120
                     Console.Write($"{tomb[i]}, ");
                 }
             }
-
             Console.Write("\n");
+
+            //++
             int j = 0;
 
             while (j < tomb.Length && !HatvanyE(tomb[j]))
